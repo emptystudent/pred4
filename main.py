@@ -47,7 +47,7 @@ page = st.sidebar.selectbox("", ["Introduction🪔","Car price predictor Model �
 if page == "Introduction🪔":
     st_lottie(lottie_hello)  #
     st.header("Introduction 🧪 ")
-    st.subheader("Here Is how you can use the navigation Bar on your top left corner)
+    st.subheader("Here Is how you can use the navigation Bar on your top left corner")
     st.write("")
     st.subheader(" ➥ Car price predictor Model 🔦")
     st.write(" Introducing My dynamic AI coalition – a fusion of Hypertuned **Decision Tree, Random Forest, KNN, and Gradient Boosting regressors, working in harmonious precision to predict your car's worth with an astonishing 97% accuracy**. 🎯🔮 Feed in your car details and see  AI magic! ")
