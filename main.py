@@ -1138,7 +1138,7 @@ if page == "Car price predictor Model 🔦":
                                       dt_pipeline.predict(sample_df)
                               ) / 3
 
-        modified_result = 0.93 * average_predictions[0]
+        modified_result = 0.92 * average_predictions[0]
 
         return modified_result
 
