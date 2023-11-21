@@ -1137,10 +1137,7 @@ if page == "Car price predictor Model 🔦":
                                       knn_pipeline.predict(sample_df) +
                                       dt_pipeline.predict(sample_df)
                               ) / 3
-
-        modified_result = 0.9*average_predictions[0]
-
-        return modified_result
+        return average_predictions[0]
 
 
 
